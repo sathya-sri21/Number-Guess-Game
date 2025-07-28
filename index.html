@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Number Guessing Game</title>
+    <link rel="icon" href="./assets/logo.png" type="image/png" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body background="./assets/background.jpg">
+    <div class="container">
+      <div class="leftpara">
+        <h4 class="message" style="color: white;"></h4>
+      </div>
+      <div class="rightattempt">
+        <h4 class="attempt" style="color: white;"></h4>
+      </div>
+      <div class="box">
+        <!-- <img src="./assets/logooo.png" alt=""> -->
+        <h2
+          style="
+            color: aliceblue;
+            font-family: 'Lucida Sans';
+            font-style: italic;
+            font-size: 30px;
+            text-align: center;
+          "
+        >
+          Guess the Number
+        </h2>
+        <br />
+        <div class="para" id="paragra">
+          <p>I’m thinking of a number between 1 and 100.</p>
+        </div>
+        <br />
+        <div class="inputCon" id="inputContain">
+          <input type="text" class="inputBox" />
+        </div>
+        <div class="btn">
+          <button onclick="Guess()">Guess</button>
+          <button onclick="resetBtn()">Reset</button>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

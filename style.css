@@ -1,0 +1,94 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 140px;
+}
+.box {
+  display: inline-block;
+  padding: 30px;
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px white;
+  vertical-align: middle;
+}
+.box h2 {
+  padding-top: 120px;
+}
+.box img {
+  height: 150px;
+  width: 150px;
+}
+.para {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+p {
+  font-family: Georgia;
+  font-size: 18px;
+  font-weight: 500;
+  color: red;
+}
+.inputCon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+}
+.inputBox {
+  padding: 10px;
+  font-size: 16px;
+  width: 90%;
+  height: auto;
+  margin: 10px;
+  background-color: #06263f;
+  color: white;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.leftpara,
+.rightattempt {
+  position: absolute;
+  top: 50%;
+  /* transform: translateY(-50%); */
+  font-weight: bold;
+  font-size: 25px;
+  color: white;
+  font-weight: 800;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.leftpara {
+  left: 20px;
+  text-align: left;
+  padding-left: 150px;
+  color: white;
+  font-family: serif;
+}
+.rightattempt {
+  right: 20px;
+  text-align: right;
+  padding-right: 150px;
+  color: white;
+  font-family: serif;
+}
